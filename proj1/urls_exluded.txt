@@ -1,0 +1,2 @@
+url(r'^webapp/', include('webapp.urls')),
+url(r'^myapp/', include('myapp.urls')),

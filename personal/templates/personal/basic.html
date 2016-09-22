@@ -1,0 +1,12 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+	{% for c in info %}
+		
+		{% if c != "tomer" %}
+			<p> {{c}} </p>
+		{% else %}
+			<p> {{"wowwww"}} </p>
+		{% endif %}
+	{% endfor %}
+{% endblock %}
